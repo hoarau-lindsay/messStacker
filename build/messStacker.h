@@ -35,9 +35,9 @@ uint8_t curMessageCmd();
 uint8_t curMessageSize();
 uint8_t curMessageChecksum(); 
 
-bool curMessageData(char* buffer, int lengthMax)
+bool curMessageData(char* buffer, int lengthMax);
 
-uint8_t checksumMessage(uint8_t cmd, uint8_t size, char * data)
+uint8_t checksumMessage(uint8_t cmd, uint8_t size, char * data);
 
 
 #endif 
