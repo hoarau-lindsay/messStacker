@@ -51,7 +51,7 @@ uint8_t checksumMessage(uint8_t cmd, uint8_t size, char * data){
         uint8_t checksum : somme  
     
     */
-    
+
     uint8_t checksum = cmd;  
 
     for (uint8_t i = 0; i < size; i++) {
@@ -59,5 +59,22 @@ uint8_t checksumMessage(uint8_t cmd, uint8_t size, char * data){
     }
 
     return checksum;
+}
+
+# Exercice 13 - Passer 
+/*bool sendMessage (uint8_t cmd, uint8_t size, char * data){
+
+}*/
+
+uint8_t curMessageCmd(){
+    #utilisation de la structure Message
+}
+
+uint8_t curMessageSize(){
+    #utilisation de la structure Message
+}
+
+uint8_t curMessageChecksum(){
+    #utilisation de la structure Message
 }
 
