@@ -40,5 +40,6 @@ bool curMessageData(char* buffer, int lengthMax);
 uint8_t checksumMessage(uint8_t cmd, uint8_t size, char * data);
 
 
+
 #endif 
 
