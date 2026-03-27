@@ -9,8 +9,13 @@
 // Fonction
 const char * getMessStackerVersion();
 
-
-
+typedef struct message{
+    //Structure de données principale
+    uint8_t cmd;                  // entier non signés sur 8 bits
+    uint8_t data[SIZE_MAX_DATA];  // tableau de données  de taille SIZE_MAX_DATA
+    uint8_t size;                 // entier non signés sur 8 bits - nombre d'octets à considérer pour le contenu du tableau data 
+    uint8_t checksum;             // checksum (8 bits)
+} MESSAGE;
 
 #endif 
 
