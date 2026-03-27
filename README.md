@@ -57,5 +57,15 @@ messStacker
 Il existe un dépôt distant sur git dont l'adresse ssh est : 
 `git@github.com:hoarau-lindsay/messStacker.git`
 
+---
+## Fonction : haveMessage
+Existance d'un message dans la file
+  Paramètre : 
+  
+  Retour : booléen 
 
+    - true : existance d'un message
+    - false : inexistance d'un message 
+
+  ---
 

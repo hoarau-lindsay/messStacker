@@ -25,3 +25,16 @@ int messCount = 0;             // nombre de message présent dans la file
 const char * getMessStackerVersion(){
     return MESS_STAKER_VERSION;
 }
+
+bool haveMessage(){
+    /* Existance d'un message dans la file
+    
+    Paramètre : 
+        
+    Retour : booléen 
+        true : existance d'un message
+        false : inexistance d'un message 
+        
+    */
+    return messCount > 0;
+}
