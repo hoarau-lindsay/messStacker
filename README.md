@@ -68,4 +68,16 @@ Existance d'un message dans la file
     - false : inexistance d'un message 
 
   ---
+  ## Fonction : checksumMessage 
+
+  Calculer un checksum de cmd et d'un tableau (data) -> (réaliser la somme de tous les entiers non signé sur 8 bits)
+    
+    Paramètres : 
+        uint8_t cmd : entier non signé sur 8 bits 
+        uint8_t size : taille du tableau data  
+        char * data : tableau de données 
+
+    Retour : 
+        uint8_t checksum : somme  
+
 
